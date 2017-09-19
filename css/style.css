@@ -1,0 +1,217 @@
+@charset "utf-8";
+html,body {
+    width: 100%;
+    height: 100%;
+    background-color: #348cf7;
+}
+.wrapper {
+    min-height: 100%;
+    /* background-color: #348cf7; */
+}
+.noMB {
+    margin-bottom: 0 !important;
+}
+.w-650 {
+    width: 6.5rem;
+    padding: 0.35rem 0 0.3rem; 
+    margin: 0 auto;
+}
+.problem-content {
+    margin-bottom: 0.84rem;
+}
+.problem-head {
+    width: 6.5rem;
+    height: 0.7rem;
+    background-image: url("../images/pageHead.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.problem-body {
+    position: relative;
+    min-height: 7.3rem;
+    padding: 0.5rem;
+    background-color: #fff;
+    border-radius: 0.15rem;
+    font-size: 0.32rem;
+    color: #348cf7;
+    box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+}
+/* 表单样式padding设置 */
+.problem-body:after {
+    position: absolute;
+    bottom: -0.27rem;
+    left: 50%;
+    display: block;
+    content: "";
+    width: 0.63rem;
+    height: 0.27rem;
+    margin-left: -0.315rem;
+    background-image: url("../images/icon_01.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.problem-body p {
+    margin-bottom: 0.5rem;
+    line-height: 1.5em;
+}
+.problem-body h4 {
+    font-size: 0.36rem;
+    color: #348cf7;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.5em;
+    margin-bottom: 0.5rem;
+}
+/* 按钮样式设置 */
+.Redirection-btns .btn {
+    width: 5.5rem;
+    height: 1rem;
+    margin: 0 auto;
+    margin-bottom: 0.3rem;
+    line-height: 1rem;
+    font-size: 0.32rem;
+    background: #71f46b;
+    color: #fff;
+    border-radius: 0.15rem;
+    text-align: center;
+    box-shadow: 0px 0.2rem 0.3rem -0.2rem #1c51ff;
+}
+.Redirection-btns .btn.white {
+    background: #fff;
+    color: #348cf7;
+}
+/* 表单样式设置 */
+.problem-body.form,
+.problem-body.form-edited {
+    padding: 0.3rem;
+}
+.form-group {
+    margin-left: 0.1rem;
+}
+.form-group-title {
+    line-height: 0.8rem;
+    font-size: 0.28rem;
+    color: #cbcbcb;
+}
+.form-group.flex {
+    display: flex;
+    display: -webkit-flex;
+    border-bottom: 1px solid #e8e8e8;
+    box-sizing: border-box;
+    -webkit-box: border-box;
+}
+.form-group.flex .form-group-title {
+    width: 35%;
+}
+.form-group.flex .form-group-input {
+    position: relative;
+    width: 65%;
+}
+.form-group.flex .form-group-input span {
+    display: block;
+    width: 100%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.28rem;
+    color: #348cf7;
+    text-align: right;
+}
+.form-group.flex .form-group-input select {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0.8rem;
+    border: none;
+    line-height: 0.8rem;
+    font-size: 0.28rem;
+    opacity: 0;
+}
+.form-group.flex .form-group-input input {
+    border: none;
+    height: 0.8rem;
+    width: 100%;
+    font-size: 0.28rem;
+    color: #348cf7;
+    line-height: 0.8rem;
+    text-align: right;
+}
+.form-group-input textarea {
+    width: 100%;
+    height: 1.6rem;
+    padding: 0.2rem 0.35rem;
+    line-height: 1.5em;
+    font-size: 0.28rem;
+    color: #348cf7;
+    border: 1px solid #e8e8e8;
+    border-radius: 0.1rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -webkit-appearance: none;
+}
+.form-group-input span {
+    line-height: 1.5em;
+    font-size: 0.28rem;
+    color: #348cf7;
+}
+
+/* 已编辑表单样式 */
+.form-edited .form-group {
+    border-bottom: 1px solid #e8e8e8;
+}
+.form-edited .form-group.noBB {
+    border-bottom: none;
+}
+.form-edited .form-group span {
+    display: block;
+    min-height: 1rem;
+}
+.form-edited .form-group.flex .form-group-input span {
+    min-height: 0.8rem;
+    height: 0.8rem;
+}
+/* 清除表单元素获得焦点默认样式 */
+.form-group-input select:focus,
+.form-group-input input:focus,
+.form-group-input textarea:focus {
+    outline: none;
+}
+/* 改变placeholder颜色 */
+.form-group-input input:-ms-input-placeholder{
+    color: #348cf7;
+}
+.form-group-input input::-webkit-input-placeholder{
+    color: #348cf7;
+}
+.form-group-input textarea:-ms-input-placeholder{
+    color: #348cf7;
+}
+.form-group-input textarea::-webkit-input-placeholder{
+    color: #348cf7;
+}
+/* 691提示样式 */
+.problem-body p.tip-691 {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    color: #e61281;
+}
+.problem-body p.tip-691 i {
+    width: 0.16rem;
+    height: 0.22rem;
+    margin: 0 0.15rem;
+    background-image: url("../images/icon_02.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+/* 图片样式设置 */
+.problem-body img {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px -5px rgba(204, 204, 204, 0.75), -5px -5px 10px -5px rgba(204, 204, 204, 0.75);
+}
