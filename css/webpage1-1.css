@@ -1,0 +1,148 @@
+.wrap-one{
+    box-sizing: border-box;
+    padding-top: 3.3rem;
+    width: 37.5rem;
+    height: 60.4rem;
+    background: url("../images/wrap-one.png") center no-repeat;
+    background-size: cover;
+}
+.detection{
+    margin: 0 auto;
+    width: 24.8rem;
+    height: 23.35rem;
+    text-align: center;
+    background: url("../images/detection.png") center no-repeat;
+    background-size: cover;
+}
+.detection p{
+    font-size: 3.8rem;
+    line-height: 23.35rem;
+    color: #348cf7;
+}
+.detection p span{
+    font-size: 5.2rem;
+}
+.Qlist{
+    box-sizing: border-box;
+    padding: 4rem 3.7rem 0;
+}
+.Qlist ul li{
+    position: relative;
+    font-size: 1.7rem;
+    height: 5rem;
+    line-height: 5rem;
+    color: #ffffff;
+    border-bottom: 0.1rem solid #ffffff;
+}
+.Qlist ul li span{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    width: 2rem;
+    height: 2rem;
+}
+.Qlist ul li .normal{
+    background: url("../images/normal.png") center no-repeat;
+    background-size: cover;
+}
+.Qlist ul li .wron{
+    background: url("../images/warn.png") center no-repeat;
+    background-size: cover;
+}
+
+/*Loading动画*/
+@-webkit-keyframes scale {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    45% {
+        -webkit-transform: scale(0.1);
+        transform: scale(0.1);
+        opacity: 0.7;
+    }
+
+    80% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes scale {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    45% {
+        -webkit-transform: scale(0.1);
+        transform: scale(0.1);
+        opacity: 0.7;
+    }
+
+    80% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.ball-pulse > div:nth-child(0) {
+    -webkit-animation: scale 0.75s 0s infinite cubic-bezier(.2, .68, .18, 1.08);
+    animation: scale 0.75s 0s infinite cubic-bezier(.2, .68, .18, 1.08);
+}
+
+.ball-pulse > div:nth-child(1) {
+    -webkit-animation: scale 0.75s 0.12s infinite cubic-bezier(.2, .68, .18, 1.08);
+    animation: scale 0.75s 0.12s infinite cubic-bezier(.2, .68, .18, 1.08);
+}
+
+.ball-pulse > div:nth-child(2) {
+    -webkit-animation: scale 0.75s 0.24s infinite cubic-bezier(.2, .68, .18, 1.08);
+    animation: scale 0.75s 0.24s infinite cubic-bezier(.2, .68, .18, 1.08);
+}
+
+.ball-pulse > div:nth-child(3) {
+    -webkit-animation: scale 0.75s 0.36s infinite cubic-bezier(.2, .68, .18, 1.08);
+    animation: scale 0.75s 0.36s infinite cubic-bezier(.2, .68, .18, 1.08);
+}
+
+.ball-pulse > div {
+    text-align: center;
+    background-color: #ffffff;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    margin: 0.5rem;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    display: inline-block;
+}
+.loader-inner{
+    display: none;
+    position: fixed;
+    top: 35%;
+    left: 14rem;
+    z-index: 999;
+}
+.loader-inner p{
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #ffffff;
+}
+
+.mask {
+    position: absolute;
+    top: 0px;
+    filter: alpha(opacity=60);
+    background-color: #000;
+    z-index: 100;
+    left: 0px;
+    opacity: 0.6;
+    -moz-opacity: 0.6;
+}
