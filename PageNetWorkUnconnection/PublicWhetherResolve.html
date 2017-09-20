@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>宽带一键修复</title>
+    <script>
+        (function(global){
+    function remChange(){
+        document.documentElement.style.fontSize=20*document.documentElement.clientWidth/750+'px';
+    }
+    remChange();
+    global.addEventListener('resize',remChange,false);
+})(window);
+    </script>
+    <link rel="stylesheet" href="../css/reset.min.css">
+    <link rel="stylesheet" href="../css/broadband.css">
+</head>
+<body>
+<div class="wrap-one">
+    <div class="messageBoxWrap">
+        <div class="messageBox">
+            <div class="loader-inner ball-pulse">
+                <div></div>
+                <div></div>
+                <div></div>
+                <p>问题修复中...</p>
+            </div>
+            <p class="webpageM">问题修复完成！</p>
+        </div>
+    </div>
+    <div class="broadbandBtnBox">
+        <a href="PublicRepairFinish.html" class="broadbandBtnY">问题已解决</a>
+        <a href="NetWorkUnconnection_01.html" class="broadbandBtnN">问题未解决</a>
+    </div>
+</div>
+</body>
+</html>

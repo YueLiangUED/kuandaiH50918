@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />  
+    <meta name="apple-mobile-web-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" /> 
+    <meta name="format-detection" content="email=no" />
+    <link rel="stylesheet" type="text/css" href="../css/reset-app.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style_router.css" />
+    <title>选择路由器</title>
+    <script>
+        ;(function (global) {
+        function remChange(){
+            document.documentElement.style.fontSize=100*document.documentElement.clientWidth/750+'px';
+        }
+        remChange();
+        global.addEventListener('resize',remChange,false);
+        })(window);
+    </script>
+</head>
+<body style="visibility:hidden;">
+    <!-- 页面html代码开始 -->
+    <div class="router-wrap">
+        <img class="use" src="../images/me_router.jpg" alt="">
+    </div>
+    <!-- 页面html代码结束 -->
+    <script type="text/javascript">setTimeout(function () {document.getElementsByTagName('body')[0].style.visibility='visible';},100)</script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />  
+    <meta name="apple-mobile-web-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" /> 
+    <meta name="format-detection" content="email=no" />
+    <link rel="stylesheet" type="text/css" href="../css/reset-app.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <title>错误代码769</title>
+    <script>
+        (function(global){
+            function remChange(){
+                document.documentElement.style.fontSize=100*document.documentElement.clientWidth/750+'px';
+            }
+            remChange();
+            global.addEventListener('resize',remChange,false);
+        })(window);
+    </script>
+</head>
+<body>
+    <!-- 页面html代码开始 -->
+    <div class="wrapper">
+        <div class="w-650">
+            <div class="problem-content">
+                <div class="problem-head"></div>
+                <div class="problem-body form">
+                    <div class="form-group flex">
+                        <div class="form-group-title">
+                            故障区县
+                        </div>
+                        <div class="form-group-input">
+                            <span>请您选择所在的区县</span>
+                            <select id="GZtown">
+                                <option value='' disabled selected style='display:none;'>请您选择所在的区县</option>
+                                <option value="昌平区">昌平区</option>
+                                <option value="朝阳区">朝阳区</option>
+                                <option value="海淀区">海淀区</option>
+                                <option value="东城区">东城区</option>
+                                <option value="丰台区">丰台区</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group flex">
+                        <div class="form-group-title">
+                            故障地点
+                        </div>
+                        <div class="form-group-input">
+                            <input id="GZplace" type="text" placeholder="请您输入所在的详细地址">
+                        </div>
+                    </div>
+                    <div class="form-group flex">
+                        <div class="form-group-title">
+                            故障持续时间
+                        </div>
+                        <div class="form-group-input">
+                            <span>请您选择故障持续时间</span>
+                            <select id="GZdate">
+                                <option value='' disabled selected style='display:none;'>请您选择故障持续时间</option>
+                                <option value="1-2天">1-2天</option>
+                                <option value="1周以内">1周以内</option>
+                                <option value="2周以内">2周以内</option>
+                                <option value="1月以内">1月以内</option>
+                                <option value="2月以内">2月以内</option>
+                                <option value="3月以内">3月以内</option>
+                                <option value="半年以内">半年以内</option>
+                                <option value="长期">长期</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group flex">
+                        <div class="form-group-title">
+                            联系电话
+                        </div>
+                        <div class="form-group-input">
+                            <input id="GZphone" type="number" placeholder="请您输入联系电话">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-group-title">
+                            宽带套餐类型、故障现象
+                        </div>
+                        <div class="form-group-input">
+                            <textarea id="GZdescription" placeholder="请您输入宽带套餐类型，描述故障现象"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Redirection-btns">
+                <a id="subBtn" class="btn" href="PublicFormEdited.html">提交</a>
+            </div>
+        </div>
+    </div>
+    <!-- 页面html代码结束 -->
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>

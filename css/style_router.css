@@ -1,0 +1,81 @@
+@charset "utf-8";
+body {
+    color: #fff;
+}
+.index-wrap {
+    text-align: center;
+}
+
+.index-h2 {
+    padding-top: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+.index-h2 {
+    font-size: 0.36rem;
+    color: #3b9aff;
+}
+.router-list {
+    width: 6.4rem;
+    margin: 0 auto;
+}
+.router-list ul {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.router-list ul li {
+    width: 3.0rem;
+    height: 3.0rem;
+    margin-bottom: 0.5rem; 
+    border-radius: 0.1rem;
+}
+.router-list ul li img {
+    width: 0.95rem;
+    margin-bottom: 0.4rem;
+}
+.router-list ul li p {
+    font-size: 0.28rem;
+    color: #fff;
+}
+.router-list ul li.td-router {
+    background: linear-gradient(#ff6699, #ff6666);
+    background: -webkit-linear-gradient(#ff6699, #ff6666);
+}
+.router-list ul li.tp-router {
+    background: linear-gradient(#5fe4a2, #5dd9ac);
+    background: -webkit-linear-gradient(#5fe4a2, #5dd9ac);
+}
+.router-list ul li.d-router {
+    background: linear-gradient(#ff5cc1, #ff5da0);
+    background: -webkit-linear-gradient(#ff5cc1, #ff5da0);
+}
+.router-list ul li.me-router {
+    background: linear-gradient(#ffd060, #ffb65d);
+    background: -webkit-linear-gradient(#ffd060, #ffb65d);
+}
+.router-list ul li.fast-router {
+    background: linear-gradient(#3dc8ff, #3b99ff);
+    background: -webkit-linear-gradient(#3dc8ff, #3b99ff);
+}
+.router-list ul li.ty-router {
+    background: linear-gradient(#3dc8ff, #3b99ff);
+    background: -webkit-linear-gradient(#3dc8ff, #3b99ff);
+}
+.router-list ul li a {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+.router-wrap {
+    width: 100%;
+}
+.router-wrap img.use {
+    display: block;
+    width: 100%;
+}

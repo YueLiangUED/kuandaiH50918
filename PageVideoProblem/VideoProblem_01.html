@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />  
+    <meta name="apple-mobile-web-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" /> 
+    <meta name="format-detection" content="email=no" />
+    <link rel="stylesheet" type="text/css" href="../css/reset-app.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <title>视频播放不流畅</title>
+    <script>
+        (function(global){
+            function remChange(){
+                document.documentElement.style.fontSize=100*document.documentElement.clientWidth/750+'px';
+            }
+            remChange();
+            global.addEventListener('resize',remChange,false);
+        })(window);
+    </script>
+</head>
+<body>
+    <!-- 页面html代码开始 -->
+    <div class="wrapper">
+        <div class="w-650">
+            <div class="problem-content">
+                <div class="problem-head"></div>
+                <div class="problem-body">
+                    <p>在线看视频卡或无法观看</p>
+                    <p>情况一：1、能打开播放，但是下载的速度跟不上播放的进度，需要等一段时间再播放，建议更换更大带宽宽带接入。<br /> 2、晚高峰期，视频观看人数过多，导致服务器响应速度下降，建议将视频暂停一段时间后再看。</p>
+                    <p>情况二：视频服务器故障，导致无法播放视频，建议去其他网站观看相应视频。</p>
+                </div>
+            </div>
+            <div class="Redirection-btns">
+                <a class="btn" href="VideoProblem_02.html">下一步</a>
+            </div>
+        </div>
+        
+    </div>
+    <!-- 页面html代码结束 -->
+</body>
+</html>

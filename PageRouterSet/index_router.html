@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />  
+    <meta name="apple-mobile-web-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" /> 
+    <meta name="format-detection" content="email=no" />
+    <link rel="stylesheet" type="text/css" href="../css/reset-app.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style_router.css" />
+    <title>选择路由器</title>
+    <script>
+        ;(function (global) {
+        function remChange(){
+            document.documentElement.style.fontSize=100*document.documentElement.clientWidth/750+'px';
+        }
+        remChange();
+        global.addEventListener('resize',remChange,false);
+        })(window);
+    </script>
+</head>
+<body style="visibility:hidden;">
+    <!-- 页面html代码开始 -->
+    <div class="index-wrap">
+        <div class="index-h2">
+            <h2>请选择您使用的路由器品牌</h2>
+        </div>
+        <div class="router-list">
+            <ul>
+                <li class="td-router">
+                    <a href="td_router.html">
+                        <img src="../images/router_01.png" alt="">
+                        <p>腾达路由器</p>
+                    </a>
+                </li>
+                <li class="tp-router">
+                    <a href="tp_router.html">
+                        <img src="../images/router_01.png" alt="">
+                        <p>TP-LINK路由器</p>
+                    </a>
+                </li>
+                <li class="d-router">
+                    <a href="d_router.html">
+                        <img src="../images/router_02.png" alt="">
+                        <p>D-LINK路由器</p>
+                    </a>
+                </li>
+                <li class="me-router">
+                    <a href="me_router.html">
+                        <img src="../images/router_03.png" alt="">
+                        <p>水星路由器</p>
+                    </a>
+                </li>
+                <li class="fast-router">
+                    <a href="fast_router.html">
+                        <img src="../images/router_04.png" alt="">
+                        <p>FAST路由器</p>
+                    </a>
+                </li>
+                <li class="ty-router">
+                    <a href="ty_router.html">
+                        <img src="../images/router_05.png" alt="">
+                        <p>通用路由器</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 页面html代码结束 -->
+    <script type="text/javascript">setTimeout(function () {document.getElementsByTagName('body')[0].style.visibility='visible';},100)</script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+@charset "utf-8";
+.mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 1000;
+}
+.pop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1001;
+}
+.pop .pop-content {
+    width: 5.8rem;
+    margin: 1rem auto 0;
+}
+.pop .pop-icon {
+    position: relative;
+    width: 2.31rem;
+    height: 3.16rem;
+    margin: 0 auto;
+    background-image: url("../images/pop-icon.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 100% 100%;
+    z-index: 1002;
+}
+.pop .pop-body {
+    overflow: hidden;
+    margin-top: -1.7rem;
+    padding-top: 1.85rem;
+    background-color: #fff;
+    border-radius: 0.1rem;
+}
+.pop .pop-body p {
+    padding: 0.4rem 0;
+    font-size: 0.32rem;
+    color: #333;
+    text-align: center;
+    line-height: 1.5em;
+}
+.pop .pop-body .pop-footer {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    width: 5.6rem;
+    height: 1rem;
+    margin: 0 auto;
+    line-height: 1rem;
+    font-size: 0.36rem;
+    text-align: center;
+    border-top: 1px solid #eeeeee;
+}
+.pop-footer a {
+    flex-grow: 1;
+    color: #2bb7fc;
+}
+.pop-footer a.hui {
+    color: #999;
+}
+.pop-footer i.solid {
+    height: 0.9rem;
+    border-right: 1px solid #eeeeee;
+}
