@@ -9,7 +9,7 @@
     <meta name="format-detection" content="email=no" />
     <link rel="stylesheet" type="text/css" href="css/reset-app.min.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <title>问题反馈工单</title>
+    <title>游戏卡顿</title>
     <script>
         (function(global){
             function remChange(){
@@ -34,7 +34,7 @@
                         <div class="form-group-input">
                             <span>请您选择所在的区县</span>
                             <select id="GZtown">
-                                <option value='' disabled selected style='display:none;'>请您选择所在的区县</option>
+                                <option value='' disabled selected style='display:none;'>请选择所在区县</option>
                                 <option value="昌平区">昌平区</option>
                                 <option value="朝阳区">朝阳区</option>
                                 <option value="海淀区">海淀区</option>
@@ -58,7 +58,7 @@
                         <div class="form-group-input">
                             <span>请您选择故障持续时间</span>
                             <select id="GZdate">
-                                <option value='' disabled selected style='display:none;'>请您选择故障持续时间</option>
+                                <option value='' disabled selected style='display:none;'>请选择故障持续时间</option>
                                 <option value="1-2天">1-2天</option>
                                 <option value="1周以内">1周以内</option>
                                 <option value="2周以内">2周以内</option>
@@ -80,6 +80,14 @@
                     </div>
                     <div class="form-group">
                         <div class="form-group-title">
+                            投诉的具体游戏名称
+                        </div>
+                        <div class="form-group-input">
+                            <textarea id="gameInput" placeholder="请填写您投诉的具体游戏名称"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-group-title">
                             宽带套餐类型、故障现象
                         </div>
                         <div class="form-group-input">
@@ -89,7 +97,7 @@
                 </div>
             </div>
             <div class="Redirection-btns">
-                <a id="subBtn" class="btn" href="PublicFormEdited.html">提交</a>
+                <a id="subBtn" class="btn" href="GameProblem_04.html">提交</a>
             </div>
         </div>
     </div>

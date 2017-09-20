@@ -10,7 +10,7 @@ $(document).ready(function(){
         });
     })();
 
-    // 表单操作
+    // 表单验证操作操作
     (function () {
         $('#subBtn').on('click', function () {
             if(window.sessionStorage){
@@ -71,7 +71,21 @@ $(document).ready(function(){
                     }
                     sessionStorage.setItem("websiteInput", websiteInputValue);
                 }
+
+                //游戏
+                var $gameInput = $('#gameInput');
+                var gameInputValue;
+                if ($gameInput.length != 0) {
+                    gameInputValue = $gameInput.val();
+                    if (gameInputValue == '') {
+                        alert('请填写您投诉的具体游戏名称');
+                        return false;
+                    }
+                    sessionStorage.setItem("gameInput", gameInputValue);
+                }
+                
             }else{
+                // 手机全部支持sessionStorage
                 alert("您的设备不支持本地存储功能，表单将不被提交");
                 return false;
             }

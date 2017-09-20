@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />  
+    <meta name="apple-mobile-web-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" /> 
+    <meta name="format-detection" content="email=no" />
+    <link rel="stylesheet" type="text/css" href="css/reset-app.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>游戏卡顿</title>
+    <script>
+        (function(global){
+            function remChange(){
+                document.documentElement.style.fontSize=100*document.documentElement.clientWidth/750+'px';
+            }
+            remChange();
+            global.addEventListener('resize',remChange,false);
+        })(window);
+    </script>
+</head>
+<body>
+    <!-- 页面html代码开始 -->
+    <div class="wrapper">
+        <div class="w-650">
+            <div class="problem-content">
+                <div class="problem-head"></div>
+                <div class="problem-body">
+                    <img style="width: 4rem;margin-bottom: 0.8rem;margin-top: 0.7rem;box-shadow: none;" src="images/pic_15.jpg" alt="pic_15">
+                    <p style="font-size: 0.42rem;text-align: center;">手机号码存在欠费<br />请结清费用</p>
+                </div>
+            </div>
+            <div class="Redirection-btns">
+                <a class="btn" href="">立即充值</a>
+                <a class="btn white" href="">关闭</a>
+            </div>
+        </div>
+        
+    </div>
+    <!-- 页面html代码结束 -->
+</body>
+</html>
