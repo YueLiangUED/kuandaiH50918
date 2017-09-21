@@ -143,10 +143,22 @@ html,body {
     opacity: 0;
 }
 .pop-content {
+    position: relative;
     width: 6.84rem;
-    margin: 1rem auto 0;
+    margin: 1.5rem auto 0;
 }
 .pop-content img {
     display: block;
     width: 100%;
+}
+.pop-close {
+    position: absolute;
+    top: -0.6rem;
+    right: 0.65rem;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-image: url("../images/icon_06.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
 }
