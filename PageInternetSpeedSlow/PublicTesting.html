@@ -8,7 +8,7 @@
     <script>
         (function(global){
     function remChange(){
-        document.documentElement.style.fontSize=20*document.documentElement.clientWidth/750+'px';
+        document.documentElement.style.fontSize=100*document.documentElement.clientWidth/750+'px';
     }
     remChange();
     global.addEventListener('resize',remChange,false);
@@ -45,6 +45,8 @@
         </ul>
     </div>
 </div>
+
+<!-- 当开始检测时吧mask 和loading显示 默认进入页面是隐藏 -->
 <!--遮罩层-->
 <div id="mask" class="mask"></div>
 <!--loading-->
@@ -54,5 +56,18 @@
     <div></div>
     <p>问题修复中...</p>
 </div>
+<script src="../js/zepto.min.js"></script>
+<script>
+    window.onload = function () {
+        function showMask() {
+            $("#mask").show();
+        }
+        //隐藏遮罩层
+        function hideMask(){
+            $("#mask").hide();
+        }
+    }
+    
+</script>
 </body>
 </html>

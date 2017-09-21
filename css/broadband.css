@@ -1,7 +1,11 @@
+body,html {
+    width: 100%;
+    height: 100%;
+}
 .wrap-one{
     box-sizing: border-box;
-    width: 37.5rem;
-    height: 60.4rem;
+    width: 7.5rem;
+    min-height: 100%;
     background: url("../images/wrap-one.png") center no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -9,15 +13,15 @@
 .messageBoxWrap{
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 2.1rem 0 2rem;
-    width: 30.6rem;
-    height: 45.35rem;
+    padding: 0.42rem 0 0.4rem;
+    width: 6.12rem;
+    height: 9.07rem;
 }
 .messageBox{
     box-sizing: border-box;
-    padding-top: 10.7rem;
-    width: 30.6rem;
-    height: 41.3rem;
+    padding-top: 2.14rem;
+    width: 6.12rem;
+    height: 8.26rem;
     text-align: center;
     background: url("../images/messageBox.png") center no-repeat;
     background-size: cover;
@@ -26,26 +30,26 @@
 .messageBox span{
     margin: 0 auto;
     display: block;
-    width: 6.55rem;
-    height: 6.1rem;
+    width: 1.31rem;
+    height: 1.22rem;
     background: url("../images/luyouqi.png") center no-repeat;
     background-size: cover;
 }
 .messageBox p{
-    font-size: 1.8rem;
-    line-height: 25rem;
+    font-size: 0.36rem;
+    line-height: 5rem;
     color: #348cf7;
 }
 
 .broadbandBtnBox a{
     display: block;
     margin: 0 auto;
-    width: 29.25rem;
-    height: 6.65rem;
-    font-size: 1.8rem;
+    width: 5.85rem;
+    height: 1.33rem;
+    font-size: 0.36rem;
     color: #348cf7;
     text-align: center;
-    line-height: 5rem;
+    line-height: 1rem;
 }
 .broadbandBtnBox .broadbandBtnY{
     color: #ffffff;
@@ -93,71 +97,71 @@
 
 .ball-spin-fade-loader {
     position: relative;
-    left: 14rem;
+    left: 2.8rem;
 }
 
 .ball-spin-fade-loader > div:nth-child(1) {
-    top: 3rem;
+    top: 0.6rem;
     left: 0rem;
     -webkit-animation: ball-spin-fade-loader 1s 0s infinite linear;
     animation: ball-spin-fade-loader 1s 0s infinite linear;
 }
 
 .ball-spin-fade-loader > div:nth-child(2) {
-    top: 2.1rem;
-    left: 2.1rem;
+    top: 0.42rem;
+    left: 0.42rem;
     -webkit-animation: ball-spin-fade-loader 1s 0.12s infinite linear;
     animation: ball-spin-fade-loader 1s 0.12s infinite linear;
 }
 
 .ball-spin-fade-loader > div:nth-child(3) {
     top: 0;
-    left: 3rem;
+    left: 0.6rem;
     -webkit-animation: ball-spin-fade-loader 1s 0.24s infinite linear;
     animation: ball-spin-fade-loader 1s 0.24s infinite linear;
 }
 
 .ball-spin-fade-loader > div:nth-child(4) {
-    top: -2.1rem;
-    left: 2.1rem;
+    top: -0.42rem;
+    left: 0.42rem;
     -webkit-animation: ball-spin-fade-loader 1s 0.36s infinite linear;
     animation: ball-spin-fade-loader 1s 0.36s infinite linear;
 }
 
 .ball-spin-fade-loader > div:nth-child(5) {
-    top: -3rem;
+    top: -0.6rem;
     left: 0;
     -webkit-animation: ball-spin-fade-loader 1s 0.48s infinite linear;
     animation: ball-spin-fade-loader 1s 0.48s infinite linear;
 }
 
 .ball-spin-fade-loader > div:nth-child(6) {
-    top: -2.1rem;
-    left: -2.1rem;
+    top: -0.42rem;
+    left: -0.42rem;
     -webkit-animation: ball-spin-fade-loader 1s 0.6s infinite linear;
     animation: ball-spin-fade-loader 1s 0.6s infinite linear;
 }
 
 .ball-spin-fade-loader > div:nth-child(7) {
     top: 0;
-    left: -3rem;
+    left: -0.6rem;
     -webkit-animation: ball-spin-fade-loader 1s 0.72s infinite linear;
     animation: ball-spin-fade-loader 1s 0.72s infinite linear;
 }
 
 .ball-spin-fade-loader > div:nth-child(8) {
-    top: 2.1rem;
-    left: -2.1rem;
+    top: 0.42rem;
+    left: -0.42rem;
     -webkit-animation: ball-spin-fade-loader 1s 0.84s infinite linear;
     animation: ball-spin-fade-loader 1s 0.84s infinite linear;
 }
 
 .ball-spin-fade-loader > div {
     background-color: #348cf7;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 0.3rem;
+    height: 0.3rem;
     border-radius: 100%;
-    margin: 0.5rem;
+    margin: 0.1rem;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
     position: absolute;
@@ -165,19 +169,19 @@
 
 /*webpage*/
 .messageBox .icon-360{
-    width: 7.4rem;
-    height: 7.3rem;
+    width: 1.48rem;
+    height: 1.46rem;
     background: url("../images/icon-360.png") center no-repeat;
     background-size: cover;
 }
 .messageBox .webpageM{
-    line-height: 15rem;
+    line-height: 3rem;
 }
 
 /*game1-7*/
 .messageBox .icon-light{
-    width: 7.15rem;
-    height: 6.65rem;
+    width: 1.43rem;
+    height: 1.33rem;
     background: url("../images/game-light.png") center no-repeat;
     background-size: cover;
 }
@@ -246,10 +250,10 @@
 .ball-pulse > div {
     text-align: center;
     background-color: #0085cf;
-    width: 2rem;
-    height: 2rem;
+    width: 0.4rem;
+    height: 0.4rem;
     border-radius: 100%;
-    margin: 0.5rem;
+    margin: 0.1rem;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
     display: inline-block;
@@ -259,7 +263,7 @@
     z-index: 999;
 }
 .loader-inner p{
-    font-size: 1.6rem;
-    line-height: 2.5rem;
+    font-size: 0.32rem;
+    line-height: 0.5rem;
     color: #348cf7;
 }

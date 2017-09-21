@@ -1,38 +1,42 @@
+html,body {
+    width: 100%;
+    height: 100%;
+}
 .wrap-one{
     box-sizing: border-box;
-    padding-top: 3.3rem;
-    width: 37.5rem;
-    height: 60.4rem;
+    padding-top: 0.66rem;
+    width: 7.5rem;
+    min-height: 100%;
     background: url("../images/wrap-one.png") center no-repeat;
     background-size: cover;
 }
 .detection{
     margin: 0 auto;
-    width: 24.8rem;
-    height: 23.35rem;
+    width: 4.96rem;
+    height: 4.67rem;
     text-align: center;
     background: url("../images/detection.png") center no-repeat;
     background-size: cover;
 }
 .detection p{
-    font-size: 3.8rem;
-    line-height: 23.35rem;
+    font-size: 0.76rem;
+    line-height: 4.67rem;
     color: #348cf7;
 }
 .detection p span{
-    font-size: 5.2rem;
+    font-size: 1.04rem;
 }
 .Qlist{
     box-sizing: border-box;
-    padding: 4rem 3.7rem 0;
+    padding: 0.8rem 0.74rem 0;
 }
 .Qlist ul li{
     position: relative;
-    font-size: 1.7rem;
-    height: 5rem;
-    line-height: 5rem;
+    font-size: 0.34rem;
+    height: 1rem;
+    line-height: 1rem;
     color: #ffffff;
-    border-bottom: 0.1rem solid #ffffff;
+    border-bottom: 1px solid #ffffff;
 }
 .Qlist ul li span{
     position: absolute;
@@ -40,8 +44,8 @@
     bottom: 0;
     margin: auto;
     right: 0;
-    width: 2rem;
-    height: 2rem;
+    width: 0.4rem;
+    height: .4rem;
 }
 .Qlist ul li .normal{
     background: url("../images/normal.png") center no-repeat;
@@ -115,10 +119,10 @@
 .ball-pulse > div {
     text-align: center;
     background-color: #ffffff;
-    width: 2rem;
-    height: 2rem;
+    width: 0.4rem;
+    height: 0.4rem;
     border-radius: 100%;
-    margin: 0.5rem;
+    margin: 0.1rem;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
     display: inline-block;
@@ -127,22 +131,22 @@
     display: none;
     position: fixed;
     top: 35%;
-    left: 14rem;
+    left: 2.8rem;
     z-index: 999;
 }
 .loader-inner p{
-    font-size: 1.6rem;
-    line-height: 2.5rem;
+    font-size: 0.32rem;
+    line-height: 0.5rem;
     color: #ffffff;
 }
 
 .mask {
-    position: absolute;
+    display: none;
+    position: fixed;
     top: 0px;
-    filter: alpha(opacity=60);
-    background-color: #000;
-    z-index: 100;
     left: 0px;
-    opacity: 0.6;
-    -moz-opacity: 0.6;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 100;
 }

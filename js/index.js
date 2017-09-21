@@ -91,4 +91,29 @@ $(document).ready(function(){
             }
         });
     })();
+
+    // 家宽设备指引灯
+    (function () {
+        $('.step-btn-group.wifi').on('click', '.step-btn', function () {
+            $('.step-btn-group.wifi .step-btn').css({
+                'background-color': '#fff',
+                'color': '#348cf7'
+            });
+            $(this).css({
+                'background-color': '#71f46b',
+                'color': '#fff'
+            });
+            var index = $(this).index();
+            if (index == 0) {
+                $('.light-content').css('background-position','left bottom' );
+                $('.light-content-title').text('带无线功能');
+            } else {
+                $('.light-content').css('background-position','right bottom' );
+                $('.light-content-title').text('不带无线功能');
+            }
+            var indexWifiBox = $('.setWifi-box')[index];
+            $('.setWifi-box').hide();
+            $(indexWifiBox).show();
+        });
+    })();
 });
